@@ -17,4 +17,5 @@ to run the container type:
 "docker run --publish 80:80 myname/docker-iis-arr"
 ```
 to test it you can type http://localhost/1/ and http://localhost/2/ on the dockerhost.
-or change localhost with the servername if you can reach it.
+
+Or change localhost with the servername if you can reach it.
