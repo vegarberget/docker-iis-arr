@@ -4,7 +4,7 @@ To test this container you must choose what two servers to route to,
 this is something i set up to get the diffrent ports sorted,
 to be able to route to services that dont use the standard ports.
 ```
-The ARR rule number one is set up to route to server farm 1 by mask "*1/*" to http://1/{R:2} 
+The ARR rule number one is set up to route to server farm 1 by mask "\*1/\*" to http://1/{R:2} 
 this means http://servername/1/ will point to the first serverfarm and http://servername/2/ will point to the second.
 
 To build the docker image type:
